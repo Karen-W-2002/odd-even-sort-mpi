@@ -14,7 +14,7 @@ void clearArray(int keys, int *a);
 
 int main(int argc, char *argv[])
 {
-    int i, j, n, random;
+    int i, j, n;
     int my_rank, comm_sz = 4;
 
     MPI_Init(&argc, &argv);
