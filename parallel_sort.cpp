@@ -15,7 +15,7 @@ void clearArray(int keys, int *a);
 int main(int argc, char *argv[])
 {
     int i, j, n;
-    int my_rank, comm_sz = 4;
+    int my_rank, comm_sz;
 
     MPI_Init(&argc, &argv);
     MPI_Comm_rank(MPI_COMM_WORLD, &my_rank);
