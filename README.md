@@ -1,4 +1,4 @@
-# Odd-Even-Sort-mpi
+# Parallel Odd-Even Sort 
 Program written in C with the use of MPI
 
 ### Description 
