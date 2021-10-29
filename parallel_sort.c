@@ -59,7 +59,6 @@ int main(int argc, char *argv[])
     // Global sort
     sortOddEvenGlobal(keys, my_rank, comm_sz, a, b);
 
-    // Process 0 gathers and prints the local lists
     MPI_Gather(a, keys, MPI_INT, recv_arr, keys, MPI_INT, 0, MPI_COMM_WORLD);
 
     if(my_rank == 0)
